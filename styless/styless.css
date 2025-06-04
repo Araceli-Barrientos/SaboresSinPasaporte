@@ -1,37 +1,71 @@
-.site-header {
-    background-color: #fff;
+.header {
+    background-color: #b9b5b5;
     border-bottom: 1px solid #eaeaea;
     padding: 15px 0;
   }
   
-  .site-header .container {
+  .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
-  .site-header .logo img {
-    height: 50px;
+  .header .logo img {
+    height: 150px;
+  }
+
+  .logo img{
+    width: 150px;
+    height: 250px;
+    border-radius: 100px;
   }
   
-  .main-nav ul {
+  .nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 90px;
     margin: 0;
     padding: 0;
   }
   
-  .main-nav a {
+  .nav a {
     text-decoration: none;
     color: #333;
-    font-weight: 500;
+    font-weight: 900;
+    font-size: large;
     transition: color 0.3s ease;
   }
   
-  .main-nav a:hover {
+  .nav a:hover {
     color: #0073e6;
   }
+
+  .formulario {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .formulario input {
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario button {
+    background-color: #b9b5b5;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .formulario button:hover {
+    background-color: #005bb5;
+  }
+  
   
 
 footer{
