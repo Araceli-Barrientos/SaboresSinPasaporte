@@ -121,25 +121,33 @@ footer{
     background-color: rgb(229, 230, 231);
     padding: 5px;
     margin: 0;
-    height: 300px;
+    height: 200px;
 }
 
 .divfooter{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    align-items: center;
+    height: 180px;
 }
 
 
 .uno{
     margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .imagen{
     height: 70px;
     width: 70px;
     border-radius: 350px;
-    object-fit: cover; 
+   
+   /* object-fit: cover;*/ 
 }
 
 .parrafo{
@@ -173,7 +181,7 @@ footer{
    width: 100px;
    margin: 0 auto;
    margin-left: 200px;
-   padding-top: 90px;
+   
 }
 
 .link{
@@ -191,12 +199,25 @@ footer{
   margin-right: 70px;
   margin: 100px;
   width: 200px;
-  height: 200px;
+  height: 100px;
 }
 
 .img{
     width: 35px;
     height: 36px;
+    
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-right: 68px;
+}
+
+.links a{
+    margin-left: 15px;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 .lin{
