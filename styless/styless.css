@@ -282,6 +282,17 @@ footer{
   align-items: center;
 }
 
+.tituloTarjeta{
+  color: #1D1D1D;
+  font-size: 36px;
+}
+
+.subtituloTarjeta{
+  color: #3C4C3F;
+  font-size: 20px;
+  text-align: center;
+}
+
 .enlace{
   display: flex;
   width: 220px;
@@ -293,4 +304,40 @@ footer{
   border-radius: 35px;
   text-decoration: none;
   margin: 15px;
+}
+
+.contenedorTarjeta2 {
+  background-color: #E9DCA7;
+  height: 567px;
+  border-radius: 12px;
+  margin: 15px;
+}
+
+/* Usamos una clase extra para invertir el orden */
+.card.reverse {
+  display: flex;
+  flex-direction: row-reverse; /* invierte el orden: imagen primero */
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/* Enlace alineado a la derecha */
+.enlace.derecha {
+  display: flex;
+  width: 220px;
+  height: 109px;
+  background-color: red;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  text-decoration: none;
+  margin: 15px;
+  margin-left: auto; /* empuja hacia la derecha */
+}
+
+.platos{
+  margin-top: 40px;
 }
