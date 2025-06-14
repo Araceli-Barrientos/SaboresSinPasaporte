@@ -470,3 +470,21 @@ button:hover {
 .contenedorTarjeta .pais{
   height: 893px;
 }
+
+.section-otros{
+  background-image: url(../assets/img/fondo\ otros.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  justify-content: center;
+  padding-right: 100px;
+}
+
+.texto-otros{
+  font-size: 48px;
+  margin-bottom: -20px;
+}
