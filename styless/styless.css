@@ -442,3 +442,31 @@ button:hover {
   font-size: 24px;
   color: #3C4C3F;
 }
+
+.hero-paises{
+  width: 442px;
+  justify-items: left;
+  border-radius: 10px;
+}
+
+.paises{
+  justify-content: space-evenly;
+}
+
+.listaTarjeta{
+  color: #3C4C3F;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.platos2{
+  width: 572px;
+  height: 500px;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.contenedorTarjeta .pais{
+  height: 893px;
+}
